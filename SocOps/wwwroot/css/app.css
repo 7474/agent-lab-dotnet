@@ -215,6 +215,10 @@ button:disabled {
         0 4px 0 rgba(104, 90, 98, 0.15);
 }
 
+.retro-header-shell {
+    margin-top: 0.75rem;
+}
+
 .retro-card {
     background:
         linear-gradient(180deg, #fffef9 0%, #fff5d7 100%);
