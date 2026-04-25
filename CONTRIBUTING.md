@@ -1,15 +1,15 @@
 # Contributing
 
-This project welcomes contributions and suggestions. Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+## 開発チェックリスト（PR 提出前に必須）
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+- [ ] `dotnet format` — リントエラーがないこと
+- [ ] `dotnet build SocOps/SocOps.csproj` — ビルドが成功すること
+- [ ] `dotnet test` — 全テストがパスすること
+
+---
+
+このプロジェクトへの貢献を歓迎します。多くの貢献には、[CLA](https://cla.opensource.microsoft.com) への同意が必要です。PR 提出時に CLA ボットが自動判定し、必要に応じて案内します。
 
 ## Code of Conduct
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+[Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) を採用しています。詳細は [FAQ](https://opensource.microsoft.com/codeofconduct/faq/) または [opencode@microsoft.com](mailto:opencode@microsoft.com) までお問い合わせください。
